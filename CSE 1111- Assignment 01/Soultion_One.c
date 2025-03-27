@@ -7,7 +7,7 @@ int main ()
         if (i==1) {
             if (n>1) continue;
             printf ("%d\n",a);
-            if (n==1)break;
+
         }
         else if (i==2) {
             if (n==2) {
@@ -25,4 +25,5 @@ int main ()
             b = sum;
         }
     }
+    return 0;
 }
