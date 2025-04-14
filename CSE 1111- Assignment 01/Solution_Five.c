@@ -13,8 +13,11 @@ int main ()
             secondMx = mx;
             mx = arr [i];
         }
-        else if (arr [i]>secondMx) secondMx=arr [i];
+        else if (arr [i]>secondMx)
+            secondMx=arr [i];
     }
 
-    printf ("%d %d\n",mx, secondMx);
+    printf ("%d\n",secondMx);
+
+    return 0;
 }
